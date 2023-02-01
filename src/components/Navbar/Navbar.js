@@ -6,7 +6,7 @@ const Navbar = () => {
     <div>
       <div className="navbar bg-blue-900">
         <div className="navbar-start">
-          <Link className="btn btn-ghost normal-case text-xl text-green-600 font-bold">
+          <Link className="btn btn-ghost normal-case text-xl text-green-600 font-bold" to="/">
             <span className='text-green-600 text-[26px] mt-[-4px] mb-0'>S
             </span>
             EQUR

@@ -1,7 +1,7 @@
 import React from 'react';
 import { Outlet } from 'react-router-dom';
+import Events from '../components/Events/Events';
 import Navbar from '../components/Navbar/Navbar';
-import RightSide from '../components/RightSide/RightSide';
 
 const Main = () => {
   return (
@@ -14,7 +14,7 @@ const Main = () => {
         </div>
 
         <div className='col-span-1'>
-          <RightSide></RightSide>
+          <Events></Events>
         </div>
       </div>
 
